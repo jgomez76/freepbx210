@@ -3,11 +3,6 @@ version: '3'
 services:
   freepbx:
     container_name: freepbx-app
-#    image: jgomez1976/freepbx210:1.0.0
-    image: freepbx210:1.0.1
+    image: jgomez1976/freepbx210:1.0.1
     ports:
       - 80:80
-#    command: /usr/sbin/asterisk -f -U asterisk -G asterisk -vvvg -c
-#      - 5060:5060/udp
-#      - 5160:5160/udp
-#      - 10000-20000:10000-20000/udp
